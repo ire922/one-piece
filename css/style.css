@@ -1,0 +1,147 @@
+.logo{
+    background: url(../img/logo.png) no-repeat 100% 100%;
+    background-size: contain;
+    width: 200px;
+    height: 125px;
+    float: left;
+}
+h1 {
+    color: #e71616 ;
+    text-shadow: 
+        1px 1px 0 rgb(0, 0, 0), 
+        -1px -1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0 rgb(0, 0, 0); 
+    font-size: 40px;
+    color: #e71616;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+h2 {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  strong{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ p {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal ;
+  }
+li {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    margin: 0; 
+    background: linear-gradient(#198cff,#2b95ff,#379afd,#3e9eff,#51a8ff,#55aaff,#67b3ff,#6db6ff,#87cefa);
+}
+header {
+    background-image: url(../img\fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: #f10d0d ; 
+    text-shadow: 
+        1px 1px 0 rgb(255, 255, 255), 
+        -1px -1px 0 rgb(255, 255, 255),
+        1px -1px 0 rgb(255, 255, 255),
+        -1px 1px 0 rgb(255, 255, 255); 
+    font-size: 25px;
+    color: #f10d0d;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 100%; 
+    margin: 40px 20px; 
+    padding: 20px;
+    background-color: rgb(230, 235, 240);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6db6ff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h2 {
+    color: #007bff;
+}
+.personajes {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+.personaje {
+    text-align: center;
+    margin: 10px;
+}
+.personaje img {
+    width: 150px; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    width: 100%;
+    max-width: 800px; 
+    height: 450px;
+    border: none; 
+    border-radius: 8px; 
+}
+.cajitas {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+.cajita {
+    background-color: #6db6ff; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+    flex: 1; 
+    margin: 10px; 
+    min-width: 200px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+  }
